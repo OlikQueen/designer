@@ -1,0 +1,33 @@
+.biography {
+    margin-top: 83px;
+
+    background: #F6F6F6;
+
+    &__content {
+        padding: 81px 30px 76px 30px;
+    }
+
+    &__title {
+        text-align: center;
+        font-family: $font-family-primary;
+        font-size: 34px;
+
+        color: #000;
+    }
+
+    &__text {
+        margin: 29px auto 0 auto;
+        max-width: 316px;
+        min-height: 261px;
+    }
+
+    &__paragraph {
+        margin-top: 30px;
+       
+        text-align: center;
+        font-family: $font-family-primary;
+        font-size: 18px;
+
+        color: #000;
+    }
+}

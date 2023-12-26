@@ -1,0 +1,14 @@
+.star {
+  fill: #ccc; // цвет для неактивной звезды
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.filled {
+    fill: #000; // цвет для активной звезды
+  }
+}

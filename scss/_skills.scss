@@ -1,0 +1,34 @@
+.skills {
+	padding-top: 83px;
+
+	&__title {
+
+		text-align: center;
+		font-family: $font-family-primary;
+		font-size: 34px;
+
+		color: $primary-color;
+	}
+
+	&__subtitle {
+		margin-top: 50px;
+
+		text-align: center;
+		font-family: $font-family-primary;
+		font-size: 18px;
+
+		color: $primary-color;
+	}
+
+	&__content {
+		@include mq(xl) {
+			display: flex;
+			justify-content: space-around;
+			
+		}
+	}
+
+	&__skil {
+		margin-top: 80px;
+	}
+}

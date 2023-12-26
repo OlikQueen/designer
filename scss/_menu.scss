@@ -1,0 +1,23 @@
+&__menu {}
+
+    &__wrap {
+        @include mq(xl) {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    &__li {
+        margin-bottom: 68px;
+
+        list-style-type: none;
+    }
+
+    &__link {
+
+        text-decoration: none;
+        font-family: $font-family-primary;
+        font-size: 34px;
+
+        color: #828282;
+    }

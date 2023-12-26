@@ -1,0 +1,38 @@
+.skil {
+    padding: 10px;
+    margin-top: 80px;
+
+    &__title {
+      text-align: center;
+    }
+
+    &__img {
+        width: 89.073px;
+    }
+
+    &__desk {
+        text-align: center;
+
+        margin: 24px auto 0;
+        max-width: 70.292px;
+    }
+
+    &__name {
+        font-family: $font-family-primary;
+        font-size: 14px;
+
+        color: #828282;
+
+    }
+
+    &__stars {
+        text-align: center;
+
+        margin-top: 40px;
+    }
+
+    &__star {
+        max-width: 166.461px;
+        width: 100%;
+    }
+}
